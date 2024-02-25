@@ -1,22 +1,20 @@
-#include <stdio.h>
+// Make sure the function reverse actually reverses the string
 
-void func(int c){
-    float x = 0;
-    for(int i = 0; i < c; i++){
-        x += 0.5;
-        printf("%d", x);
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+char* reverse(char* str){
+    char* rev = (char*)malloc(sizeof(str));
+    int size = strlen(str);
+    for(int i=0;i<size;i++){
+        rev[i] = str[i];
     }
+    return rev;
 }
 
 int main(){
-    // Printing numbers up to a fraction
-    int a = 10;
-    int b = 20;
-
-    float c = (float)a/b;
-    
-    func(c);
-    printf("%d\n", c);
-
-    return 0;
+    char* str = "Forward";
+    str = reverse(str);
+    printf("%s\n", str);
 }
