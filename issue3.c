@@ -1,5 +1,6 @@
-#include <stdio.h>
+// Make sure the program prints the string correctly
 
+#include <stdio.h>
 
 int main(){
     // Printing all the characters in an array

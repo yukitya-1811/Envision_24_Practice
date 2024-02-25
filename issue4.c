@@ -1,3 +1,5 @@
+// Make sure the sorting algorithm is correct
+
 #include <stdio.h>
 
 void sort(int a[], int b){
