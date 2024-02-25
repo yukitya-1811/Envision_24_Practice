@@ -1,11 +1,15 @@
-# Envision '24 Git and Github Practice Repo
+#Envision_24_Practice
+A git and github practice repo for all the mentees of C3 - Gamedev using Godot and RL
 
-This is a repository that you will be working on to practice Git essentials
+##What do you have to do?
+There are are nine files in this repository. Each of you has been assigned one file. Your task is to:-
 
-## What do you have to do?
+1. Pull the repository
+2. Create a new branch
+3. Fix the issue in your new branch
+4. Commit the changes
+5. Create a pull request with description
+6. Feel free to contact us for any doubts :)
 
-Each of you has been assigned a code file to work with. You need to pull the repository to your local system,
-make a new branch, fix the issue in the code in your branch, and then commit, push and make a pull request
-
-Feel free to ask if you have any doubts :)
+All the files are C program files with a small issue that you need to fix
 
