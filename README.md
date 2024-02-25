@@ -1,7 +1,7 @@
-#Envision_24_Practice
+# Envision_24_Practice
 A git and github practice repo for all the mentees of C3 - Gamedev using Godot and RL
 
-##What do you have to do?
+## What do you have to do?
 There are are nine files in this repository. Each of you has been assigned one file. Your task is to:-
 
 1. Pull the repository
