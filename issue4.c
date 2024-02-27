@@ -4,11 +4,11 @@
 
 void sort(int a[], int b){
     for(int i = 0; i < b; i++){
-        for(int j = i; j < b-i-1; j++){
-            if(a[i] > a[j]){
-                int temp = a[i];
-                a[i] = a[j];
-                a[j] = temp;
+        for(int j = 0; j < b-i-1; j++){
+            if(a[j] > a[j+1]){
+                int temp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = temp;
             }
         }
     }
