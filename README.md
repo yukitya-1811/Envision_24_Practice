@@ -4,7 +4,7 @@ A git and github practice repo for all the mentees of C3 - Gamedev using Godot a
 ## What do you have to do?
 There are are nine files in this repository. Each of you has been assigned one file. Your task is to:-
 
-1. Pull the repository
+1. Fork the repository
 2. Create a new branch
 3. Fix the issue in your new branch
 4. Commit the changes
