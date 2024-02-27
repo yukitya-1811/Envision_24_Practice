@@ -5,7 +5,8 @@
 #include<string.h>
 int main(void){
     char* str = "Welcome to IEEE\n";
-    for(int i=0;i<100;i++){
+    char len=strlen(str);
+    for(int i=0;i<len;i++){
         printf("%c", str[i]);
     }
     printf("\n");
