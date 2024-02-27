@@ -9,7 +9,7 @@ int main(){
     char new[50] = ""; 
 
     for(int i = 0; i < 6; i++){
-        new[i] =  z;
+        new[i] =  z[i];
     }
 
     for(int i = 0; i < 6; i++){
