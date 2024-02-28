@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-
+// Comment
 char* reverse(char* str){
     char* rev = (char*)malloc(sizeof(str));
     int size = strlen(str);
