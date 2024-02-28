@@ -6,7 +6,7 @@ int main(void){
     char* str1 = "This is a string";
     char* str2 = "This is another string";
 
-    if(strcmp(str1, str2))
+    if(strcmp(str1, str2)==0)//if strcmp return 0 then strings are same
         printf("Strings are same.\n");
     else
         printf("Strings are not same.\n");
