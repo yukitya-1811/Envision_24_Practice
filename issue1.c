@@ -8,7 +8,7 @@ char* reverse(char* str){
     char* rev = (char*)malloc(sizeof(str));
     int size = strlen(str);
     for(int i=0;i<size;i++){
-        rev[i] = str[i];
+        rev[i] = str[size-1-i];
     }
     return rev;
 }
