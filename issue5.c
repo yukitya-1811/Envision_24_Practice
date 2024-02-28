@@ -13,16 +13,19 @@ int main(void){
                 printf("%d\t", 2*i);
             }
             printf("\n");
+break;
         case 2 : 
             for(int i=1;i<6;i++){
                 printf("%d\t", 3*i);
             }
             printf("\n");
+break;
         case 3 : 
             for(int i=1;i<6;i++){
                 printf("%d\t", 4*i);
             }
             printf("\n");
+break;
         default :
                 printf("Choose a valid option!!!\n");
     }
